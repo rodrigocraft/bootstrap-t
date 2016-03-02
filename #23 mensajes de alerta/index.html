@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Migas de Pan (Breadcrumbs)</title>
+    <title>Mensakes de Alerta</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
     <div class="container-fluid">
         <br>
-        <div class="col-md-5">
-            <ol class="breadcrumb">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Categoria #1</a></li>
-                <li class="active">Artículo #1</li>
-            </ol>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="alert alert-success">Esta es nuestra alerta</div>
+                <div class="alert alert-info">Esta es nuestra alerta</div>
+                <div class="alert alert-warning">Esta es nuestra alerta</div>
+                <div class="alert alert-danger">Esta es nuestra alerta</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="alert alert-success">
+                    <button class="close" data-dismiss="alert" type="button" name="button"><span>&times;</span></button>
+                    <b>Alert!</b> Esta es nuestra alerta</div>
+            </div>
         </div>
     </div>
     <script src="http://code.jquery.com/jquery-2.2.0.min.js" charset="utf-8"></script>
